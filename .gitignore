@@ -1,0 +1,21 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+.env
+# Local outputs and archived tests
+/evidence/
+/playwright-reports/
+/tests/old/
+/screenshot.png
+/tree.txt
+
+# Local configuration and private keys
+.env.*
+!.env.example
+*.pem
+*.key
